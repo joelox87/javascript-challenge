@@ -10,7 +10,6 @@
     margin: 0;
   }
   
-  /* The wrapper contains all of the page's content besides the footer, which is pushed to the bottom of the page */
   .wrapper {
     position: relative;
     min-height: 100%;
@@ -129,7 +128,6 @@
     color: #8e979f;
   }
   
-  /* media queries which will only be activated at specific screen sizes */
   @media (max-width: 800px) {
     #table-area td {
       font-size: 1em;
@@ -182,7 +180,6 @@
     }
   }
   
-  /* keyframe animations which will be used to animate the title */
   @keyframes title {
     from {
       opacity: 0;
