@@ -14,7 +14,7 @@
   .wrapper {
     position: relative;
     min-height: 100%;
-    padding-bottom: 130px;
+    padding-bottom: 120px;
     overflow: auto;
   }
   
@@ -94,18 +94,18 @@
   /* The styles for the parallax */
   .hero {
     position: relative;
-    height: 550px;
-    padding: 20px;
+    height: 350px;
+    padding: 10px;
     margin: 0;
-    background: black;
-    background-image: url("https://allhdwallpapers.com/wp-content/uploads/2015/07/Doctor-Who-2.jpg");
+    background: gray;
+    /*background-image: url("https://allhdwallpapers.com/wp-content/uploads/2015/07/Doctor-Who-2.jpg");*/
     background-attachment: fixed;
     background-position: bottom center;
     background-size: cover;
   }
-  .wrapper {
+  /*.wrapper {
     background-image: url("https://i.pinimg.com/originals/e8/de/e4/e8dee4d91bf0d1a739b6d359d8573123.jpg");
-  }
+  }*/
   .hero h1 {
     margin-top: 200px;
     font-size: 0.1rem;
@@ -194,7 +194,7 @@
     }
   }
   
-  /* keyframe animations which will be used to animate the title */
+  /* keyframe animations which will be used to animate the title*/
   @keyframes title {
     from {
       opacity: 0;
@@ -225,4 +225,4 @@
     to {
       opacity: 1;
     }
-  }
+  } 
