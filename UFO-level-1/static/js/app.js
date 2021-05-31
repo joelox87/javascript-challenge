@@ -20,8 +20,8 @@ button.on("click", function() {
   var inputValue = inputElement.property("value");
   console.log(inputValue);
   console.log(tableData);
-  var filteredData = tableData.filter(ufoSightEntry => (ufoSightEntry.datetime ===inputValue));
-  console.log(filteredData);
+  var dataFilter = tableData.filter(ufoSightEntry => (ufoSightEntry.datetime ===inputValue));
+  console.log(dataFilter);
 
 var tbody = d3.select("tbody");
 var table = d3.select("table");
@@ -30,7 +30,7 @@ table.attr("class", "table table-striped");
 
 
 if (inputValue!=="") {
-filteredData.forEach(function(ufoSightEntry){
+dataFilter.forEach(function(ufoSightEntry){
     console.log(ufoSightEntry);
     var row =tbody.append("tr");
 
